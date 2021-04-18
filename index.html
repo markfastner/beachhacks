@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Is This Domain Available</title>
+</head>
+<body>
+
+    <div>
+        <span><h2>No</h2></span> ,
+        <a><span id="link"> how about you try it again.</span></a>
+    </div>
+
+    <script>
+        var colors=[" linear-gradient(to right, #43c6ac, #191654)"," linear-gradient(to right, #eb5757, #000000)","linear-gradient(to right, #22c1c3, #fdbb2d","linear-gradient(to right, #005aa7, #fffde4)"];
+        
+        var link=document.getElementById("link");
+      
+         link.addEventListener("click", function () {
+             var random = Math.floor(Math.random() * colors.length);
+                document.body.style.background = colors[random];
+            });
+        
+    </script>
+
+    
+
+</body>
+</html>
