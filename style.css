@@ -27,4 +27,5 @@ h2 {
 a {
     color: #fff;
     cursor: pointer;
+   text-decoration: underline;
 }
